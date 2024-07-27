@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+/*  
+    cor telefone - #131A24
+    cor 01 - #6EACDF 
+    cor 02 - #273E50
+    cor 03 - #172028
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: #131A24;
+    color: white;
+}
+
