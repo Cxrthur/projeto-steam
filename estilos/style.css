@@ -8,6 +8,12 @@
     cor 03 - #172028
 */
 
+:root {
+    --cor01: #6EACDF;
+    --cor02: #273E50;
+    --cor03: #172028;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,3 +25,66 @@ body, html {
     color: white;
 }
 
+header > nav {
+    background-color: var(--cor02);
+    padding: 10px;
+}
+
+ul > li {
+    display: inline;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li > a:hover {
+    background-color: #3f6581;
+    color: #15222c;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+div#gato1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid lightcoral;
+}
+
+div#gato2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid lightskyblue;
+}
+
+div#gato3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+div#gato4 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}
+
+div#gato5 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid orange;
+}
+
+div#gato6 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid purple;
+}
