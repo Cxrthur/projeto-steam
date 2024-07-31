@@ -47,44 +47,72 @@ li > a:hover {
     transition-duration: 0.2s;
 }
 
+section {
+    width: 500px;
+    margin: auto;
+}
+
 div#gato1 {
-    display: block;
+    background-image: url(../imagens/gato1.jpg);
+    background-size: cover;
     width: 100px;
     height: 100px;
     border: 2px solid lightcoral;
 }
 
 div#gato2 {
-    display: block;
+    background-image: url(../imagens/gato2.jpg);
+    background-size: cover;
     width: 100px;
     height: 100px;
     border: 2px solid lightskyblue;
 }
 
 div#gato3 {
-    display: block;
+    background-image: url(../imagens/gato3.jpg);
+    background-size: cover;
     width: 100px;
     height: 100px;
     border: 2px solid red;
 }
 
 div#gato4 {
-    display: block;
+    background-image: url(../imagens/gato4.jpg);
+    background-size: cover;
     width: 100px;
     height: 100px;
     border: 2px solid green;
 }
 
 div#gato5 {
-    display: block;
+    background-image: url(../imagens/gato5.jpg);
+    background-size: cover;
     width: 100px;
     height: 100px;
     border: 2px solid orange;
 }
 
 div#gato6 {
-    display: block;
+    background-image: url(../imagens/gato6.jpg);
+    background-size: cover;
     width: 100px;
     height: 100px;
     border: 2px solid purple;
+}
+
+footer {
+    padding: 10px;
+    background-color: #273E50;
+    text-align: center;
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+p > a:hover {
+    text-decoration: underline;
+    transition-duration: 1s;
 }
