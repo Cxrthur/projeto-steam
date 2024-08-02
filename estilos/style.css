@@ -31,7 +31,7 @@ header > nav {
 }
 
 ul > li {
-    display: inline;
+    display: inline-block;
 }
 
 a {
@@ -46,24 +46,50 @@ li > a:hover {
     transition-duration: 0.2s;
 }
 
-iframe {
+section#tela {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 
-    width: 60vw;
-    height: 50vh;
+section#gatos {
+    padding-top: 500px;
+    padding-bottom: 70px;
+}
+
+div.gatodiv {
+    display: inline-block;
 }
 
 img.gatos {
-    width: 15vw;
-    height: 15vh;
+    width: 75px;
+    height: 75px;
 }
 
-footer {
-    padding: 10px;
+section#descricao {
+    width: 400px;
+
     background-color: #273E50;
+
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+section#descricao > p {
+    text-align: justify;
+    text-indent: 5px;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    margin-top: 70px;
+
+    padding: 10px;
+    background-color: #3f6581;
     text-align: center;
 }
 
