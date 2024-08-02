@@ -37,7 +37,6 @@ ul > li {
 a {
     color: white;
     text-decoration: none;
-    padding: 10px;
 }
 
 li > a:hover {
@@ -47,9 +46,19 @@ li > a:hover {
     transition-duration: 0.2s;
 }
 
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60vw;
+    height: 50vh;
+}
+
 img.gatos {
-    width: 100px;
-    height: 100px;
+    width: 15vw;
+    height: 15vh;
 }
 
 footer {
